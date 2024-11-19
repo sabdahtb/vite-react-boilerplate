@@ -1,0 +1,36 @@
+# Node.js dependencies
+node_modules
+
+# Docker configuration
+Dockerfile*
+docker-compose*
+
+# Git-related files
+.git
+.gitignore
+
+# Documentation and licenses
+README.md
+LICENSE
+
+# IDE and editor configurations
+.vscode
+.editorconfig
+.idea
+
+# Build and test outputs
+coverage*
+
+# Helm charts (exclude from Docker context)
+helm-charts
+
+# Environment and configuration files
+.env
+
+# Makefile
+Makefile
+
+# Ignore any dist or output folders (optional, adjust as necessary)
+dist
+out
+build
