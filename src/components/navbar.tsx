@@ -8,11 +8,14 @@ export default function Navbar() {
           React Vite
         </Link>
 
-        <div className="flex items-center justify-end gap-2">
+        <div className="flex items-center justify-end gap-3">
           <Link className="font-medium text-blue-500" to={'/'}>
             Home
           </Link>
-          <Link className="font-medium text-blue-500" to={'/404'}>
+          <Link className="font-medium text-blue-500" to={'/post'}>
+            Post
+          </Link>
+          <Link className="font-medium text-blue-500" to={'/not-found-test'}>
             404
           </Link>
         </div>
