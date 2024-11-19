@@ -1,6 +1,6 @@
 import { describe, it, expect, test } from 'vitest'
 import { render } from '@testing-library/react'
-import App from './App'
+import NotFound from '.'
 
 test('demo', () => {
   expect(true).toBe(true)
@@ -8,7 +8,7 @@ test('demo', () => {
 
 describe('render', () => {
   it('renders the main page', () => {
-    render(<App />)
+    render(<NotFound />)
     expect(true).toBeTruthy()
   })
 })
